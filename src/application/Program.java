@@ -10,6 +10,8 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
+		System.out.println("Bom dia");
+		
 		int[][] mat;
 		System.out.println("Qual o numero de linhas da matriz?");
 		int linha = sc.nextInt();
